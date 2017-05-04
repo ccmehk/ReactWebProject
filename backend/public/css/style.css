@@ -1,0 +1,57 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #f1f1f1;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.cover-profile h1{
+  font-size: 2em;
+}
+
+.cover-profile .cover-profile-bg{
+  z-index: 0;
+  width: 100%;
+}
+
+.cover-profile-bg-img{
+
+}
+
+.cover-profile-bg{
+  height: 300px;
+  position:relative;
+  overflow: hidden;
+}
+
+
+.cover-overlap{
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(rgba(0,0,0,0) 50%, rgba(0,0,0, .53));
+}
+
+.cover-profile-image
+{
+    position:relative;
+    margin: -100px 10px 0px 50px;
+    z-index: 9;
+    width:13%;
+    border-radius:50%;
+}
+
+.cover-profile-details{
+  color: #FFFFFF;
+  position:absolute;
+  bottom:55px;
+  left:225px;
+}
+
+.cover-profile-headline{
+  background-color: #FFFFFF;
+}

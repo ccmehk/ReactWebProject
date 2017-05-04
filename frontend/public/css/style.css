@@ -1,0 +1,149 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #f1f1f1;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#to2{
+   border-top-right-radius: 4px;
+}
+
+.swap-btn-group{
+  margin-top: 100%;
+}
+
+.asc{
+  background-color: #3b5998 !important;
+}
+
+.desc{
+  background-color: red !important;
+}
+
+.small-space{
+  margin-left: 5px;
+}
+
+.white-bg{
+    background:#ffffff !important;
+}
+
+.event .header h1, .event .header div{
+  display: inline-block;
+}
+
+.event div.categories span{
+  margin-left: 5px;
+}
+
+.event-row{
+  cursor: pointer
+}
+
+.event-row:hover{
+  filter: brightness(98%);
+}
+
+.event-row .date{
+  color: #3b5998;
+}
+
+.cover-profile h1{
+  font-size: 1.8em;
+}
+
+.cover-profile h1 span{
+  font-size: 0.6em;
+  margin-left: 15px;
+}
+
+.cover-profile .cover-profile-bg{
+  z-index: 0;
+  width: 100%;
+}
+
+.cover-profile .clearfix{
+  margin-bottom: -60px;
+}
+
+.cover-profile-bg-img{
+
+}
+
+.cover-profile-bg{
+  height: 300px;
+  position:relative;
+  overflow: hidden;
+}
+
+.cover-overlap{
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(rgba(0,0,0,0) 50%, rgba(0,0,0, .53));
+}
+
+.cover-profile-image
+{
+    position:relative;
+    margin: -100px 0px 0px 50px;
+    z-index: 9;
+    width:13%;
+    max-width: 150px;
+    border-radius:50%;
+}
+
+.cover-profile-details{
+  color: #FFFFFF;
+  position:absolute;
+  bottom:100px;
+  left:20.1%;
+}
+
+.cover-profile-headline{
+  height: 70px;
+  padding: 5px 0px;
+  background-color: #FFFFFF;
+}
+
+.cover-profile-headline div{
+  padding: 5px 0px;
+}
+
+.cover-profile-headline .left-align{
+  padding-left: 19.5%;
+}
+
+.cover-profile-headline div span{
+  padding-left:5px;
+}
+
+.event-image{
+    max-height: 150px;
+}
+
+.right-box{
+  background-color: white;
+  height: 100%;
+  margin-left: -3px;
+  padding:10px 20px;
+}
+
+.right-box h3{
+  margin-top: 8px;
+}
+
+.right-box div{
+  margin: 5px 0;
+}
+
+@media only screen and (max-width:1200px){
+  .cover-profile .clearfix{
+    margin-bottom: -30px;
+  }
+}
